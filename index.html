@@ -88,65 +88,74 @@
 <body>
     
     <div class="highlight-clean" style="padding-bottom: 1; text-align: center;">
-        <div class="container" style="max-width: 100%; margin-bottom: 10px;">
-            <h1 style="margin-bottom: 5px; font-weight: bold;">MatchDiffusion: Training-free Generation of Match-Cuts</h1>
+        <div class="container" style="max-width: 100%; margin-bottom: 20px;">
+            <!-- Catchier title with larger text and better spacing -->
+            <h1 style="margin-bottom: 15px; font-weight: bold; font-size: 2.5rem; line-height: 1.2; color: #333;"> 
+                MatchDiffusion:
+                <br /> 
+                Training-free Generation of Match-Cuts
+            </h1>
         </div>
-        <hr class="divider" />
-        <div class="container author-container" style="margin-top: 30px;">
-            <div class="row authors" style="justify-content: center;">
+        <hr class="divider" style="margin: 20px auto; width: 80%; border: 1px solid #ddd;" />
+        <div class="container author-container" style="margin-top: 20px;">
+            <!-- Authors with balanced spacing and responsive alignment -->
+            <div class="row authors" style="justify-content: center; gap: 15px;">
                 <div class="col">
-                    <h6 style="font-weight: bold;"><a href="https://pardoalejo.github.io">Alejandro Pardo*<sup>1</sup></a></h6>
+                    <h5 style="font-weight: bold;"><a href="https://pardoalejo.github.io" style="text-decoration: none; color: #007bff;">Alejandro Pardo*<sup>1</sup></a></h5>
                 </div>
                 <div class="col">
-                    <h6 style="font-weight: bold;"><a href="https://fabvio.github.io">Fabio Pizzati*<sup>2,3</sup></a></h6>
+                    <h5 style="font-weight: bold;"><a href="https://fabvio.github.io" style="text-decoration: none; color: #007bff;">Fabio Pizzati*<sup>2,3</sup></a></h5>
                 </div>
                 <div class="col">
-                    <h6 style="font-weight: bold;"><a href="">Tong Zhang<sup>1</sup></a></h6>
+                    <h5 style="font-weight: bold;"><a href="" style="text-decoration: none; color: #007bff;">Tong Zhang<sup>1</sup></a></h5>
                 </div>
                 <div class="col">
-                    <h6 style="font-weight: bold;"><a href="https://alexpondaven.github.io">Alexander Pondaven<sup>3</sup></a></h6>
-                </div>
-            </div>
-            <div class="row authors" style="justify-content: center;">
-                <div class="col">
-                    <h6 style="font-weight: bold;"><a href="https://eng.ox.ac.uk/people/philip-torr/">Philip Torr<sup>3</sup></a></h6>
-                </div>
-                <div class="col">
-                    <h6 style="font-weight: bold;"><a href="https://www.juancprzs.com">Juan Camilo Perez<sup>1^</sup></a></h6>
-                </div>
-                <div class="col">
-                    <h6 style="font-weight: bold;"><a href="https://www.bernardghanem.com/">Bernard Ghanem<sup>1</sup></a></h6>
+                    <h5 style="font-weight: bold;"><a href="https://alexpondaven.github.io" style="text-decoration: none; color: #007bff;">Alexander Pondaven<sup>3</sup></a></h5>
                 </div>
             </div>
-                       
-            <div class="row affiliations" style="margin-top: 15px;">
+            <div class="row authors" style="justify-content: center; gap: 15px; margin-top: 15px;">
                 <div class="col">
-                    <h6><a><sup>1</sup>King Abdullah University of Science and Technology (KAUST)</a></h6>
-                    <p style="font-size: x-small; color: gray; margin-top: 5px;"><sup>1^</sup>Work done while at KAUST, now at Meta.</p>
+                    <h5 style="font-weight: bold;"><a href="https://eng.ox.ac.uk/people/philip-torr/" style="text-decoration: none; color: #007bff;">Philip Torr<sup>3</sup></a></h5>
                 </div>
                 <div class="col">
-                    <h6><a><sup>2</sup>MBZUAI</a></h6>
+                    <h5 style="font-weight: bold;"><a href="https://www.juancprzs.com" style="text-decoration: none; color: #007bff;">Juan Camilo Perez<sup>1†</sup></a></h5>
                 </div>
                 <div class="col">
-                    <h6><a><sup>3</sup>Torr Vision Group, University of Oxford</a></h6>
+                    <h5 style="font-weight: bold;"><a href="https://www.bernardghanem.com/" style="text-decoration: none; color: #007bff;">Bernard Ghanem<sup>1</sup></a></h5>
                 </div>
             </div>
-            <div class="row text-center mx-auto" style="margin-top: 20px;">
-                <div class="col-sm-6">
-                    <a href="" target="_blank">
-                        <img src="assets/media/arxiv_paper.webp" alt="paper" class="img-fluid" style="height:60px;" />
-                        <div><strong>Arxiv</strong></div>
+            <!-- Affiliations -->
+            <div class="row affiliations" style="margin-top: 30px; text-align: center;">
+                <div class="col">
+                    <h6><a style="color: #555;"><sup>1</sup>King Abdullah University of Science and Technology (KAUST)</a></h6>
+                    <p style="font-size: small; color: gray; margin-top: 5px;"><sup>1†</sup>Work done while at KAUST, now at Meta.</p>
+                </div>
+                <div class="col">
+                    <h6><a style="color: #555;"><sup>2</sup>MBZUAI</a></h6>
+                </div>
+                <div class="col">
+                    <h6><a style="color: #555;"><sup>3</sup>Torr Vision Group, University of Oxford</a></h6>
+                </div>
+            </div>
+            <!-- Icons with reduced spacing -->
+            <div class="row text-center mx-auto d-flex justify-content-center align-items-center" style="margin-top: 20px; gap: 30px;">
+                <div class="col-sm-auto">
+                    <a href="" target="_blank" style="text-decoration: none;">
+                        <img src="assets/media/arxiv_paper.webp" alt="paper" class="img-fluid" style="height: 60px;" />
+                        <div style="font-size: 1rem; font-weight: bold; color: #333;">Arxiv</div>
                     </a>
                 </div>
-                <div class="col-sm-6">
-                    <a href="https://github.com/PardoAlejo/MatchDiffusion.git" target="_blank">
-                        <img src="assets/media/github.webp" alt="github" class="img-fluid" style="height:60px;" />
-                        <div><strong>Code</strong></div>
+                <div class="col-sm-auto">
+                    <a href="https://github.com/PardoAlejo/MatchDiffusion.git" target="_blank" style="text-decoration: none;">
+                        <img src="assets/media/github.webp" alt="github" class="img-fluid" style="height: 60px;" />
+                        <div style="font-size: 1rem; font-weight: bold; color: #333;">Code</div>
                     </a>
                 </div>
             </div>
+            
         </div>
     </div>
+    
     
     
     <div class="container">
