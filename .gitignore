@@ -1,0 +1,6 @@
+assets_bkp/
+convert2webp.sh
+fix_webp_fps.sh
+
+.DS_Store
+*.DS_Store
